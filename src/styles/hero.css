@@ -1,0 +1,90 @@
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 20px;
+}
+.login-btn{
+    height: 40px;
+    width: 80px;
+    min-width: fit-content;
+    border: 2px solid #c0c0c0;
+    background:none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+main{
+    padding-left: 200px;
+    padding-right: 200px;
+    width: 100%;
+    margin-top: 100px;
+}
+.hero-section{
+    display: flex;
+    gap: 6%;
+}
+.hero-left{
+    flex-basis: 47%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.hero-left h1{
+    font-size: calc(min(max(28px, 3.8vw), 64px));
+    font-weight: 500;
+}
+.hero-left span{
+    color: #2c6fef;
+}
+.hero-btn{
+    height: 56px;
+    width: 280px;
+    border: 0px;
+    background: none;
+    background-color: #29cc57;
+    border-radius: 60px;
+    box-shadow: 0 4px 0 0 #15b441;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.hero-left p{
+    font-weight: normal;
+    font-size: calc(min(max(16px, 1.8vw), 20px));
+    line-height: 1.5;
+}
+.hero-right{
+    flex-basis: 47%;
+    height: 500px;
+}
+.hero-right video{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.hero-options{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 100px;
+}
+.hero-option p{
+    font-size: 1rem;
+}
+.hero-option{
+    display: flex;
+    
+    align-items: center;
+    gap: 10px;
+}
+.hero-option img{
+    height: 2rem;
+    width: 2rem;
+}

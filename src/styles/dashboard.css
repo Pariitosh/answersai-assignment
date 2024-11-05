@@ -1,0 +1,250 @@
+.dashboard-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.dashboard-wrapper >div{
+    width: 1200px;
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 20px;
+    gap: 4%;
+}
+.dashboard-left{
+    width: 38%;
+}
+.dashboard-right{
+    width: 58%;
+}
+.weekly-box{
+    border-radius: 1.25rem;
+    border: 2px solid #e5e5e5;
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;
+}
+.continue-box{
+    margin-top: 20px;
+    border-radius: 1.25rem;
+    box-shadow: 0px 4px 0px 0px #e5e5e5;
+    border: 2px solid #e5e5e5;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.continue-upper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 180px;
+    align-items: flex-end;
+    
+}
+.progress{
+    height: 5px;
+    width: 100%;
+    background-color: #efefed;
+    border-radius: 5px;
+}
+.prog-bar{
+    position: absolute;
+    background-color: #27bf4e;
+    height: 5px;
+    width: 40px;
+    border-radius: 5px;
+}
+.continue-upper >img{
+    height: 137px;
+    width: 123px;
+}
+.continue-lower{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.c-heading{
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.level{
+    color: #b78900;
+    font-size: 14px;
+}
+.continue-btn{
+    height: 45px;
+    width: 90%;
+    border-radius: 54px;
+    border: 0px;
+    background: none;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+.recommend-img{
+    height: 4rem;
+    width: 4rem;
+}
+.recommend-box{
+    width: 30%;
+    border-radius: 1.25rem;
+    box-shadow: 0px 4px 0px 0px #e5e5e5;
+    border: 2px solid #e5e5e5;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.recommend-box p{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.rec-wrapper{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.unlock-box{
+    border-radius: 1.25rem;
+    border: 2px solid #e5e5e5;
+    height: 100px;
+    margin-top: 30px;
+    display: flex;
+    
+    align-items: center;
+    gap: 10px;
+    padding-left: 20px;
+}
+.course-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.course-wrapper >div{
+    width: 1200px;
+    margin-top: 30px;
+}
+.search-wrapper{
+    width: 100%;
+    border: 2px solid #e5e5e5;
+    border-radius: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.search-wrapper input{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 0px;
+    padding: 10px;
+}
+.search-wrapper input:focus{
+    outline: none;
+}
+.course-category{
+    height: 40px;
+    min-width: fit-content;
+    border: 2px solid #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+}
+.category-wrapper{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+.new-heading{
+    margin-top: 40px;
+}
+.courses-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.course{
+    box-shadow: 0px 4px 0px 0px #e5e5e5;
+    border: 2px solid #e5e5e5;
+    height: 176px;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.course >img{
+    width: 90px;
+    height: auto;
+}
+.courses-wrapper >div p{
+    text-align: center;
+}
+.course-outer{
+    display: flex;
+    flex-direction: column;
+    width: 176px;
+    min-width: 176px;
+    gap: 30px;
+}
+
+.streak-card {
+    margin-top: 20px;
+  height: 250px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.streak-number {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.streak-instructions {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.streak-days {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.streak-day {
+  width: 40px;
+  height: 50px;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.streak-day.active {
+  background-color: #c0e700;
+}

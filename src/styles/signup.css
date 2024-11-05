@@ -1,0 +1,132 @@
+.signup-outer{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.signup-wrapper{
+    width: 988px;
+    padding-left:50px;
+    padding-right: 50px;
+    display: flex;
+}
+.signup-left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-right{
+    width: 50%;
+   
+}
+.social-btns{
+    display: flex;
+    gap: 4%;
+    margin-top: 15px;
+    
+}
+.signup-right h3{
+    text-align: center;
+    font-size: 24px;
+}
+.social-btns button{
+    width: 48%;
+    background: none;
+    height: 48px;
+    box-shadow: 0px 4px 0px 0px #e5e5e5;
+    border: 2px solid #e5e5e5;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.or-line{
+    display: flex;
+    margin-top: 15px;
+}
+.or-line::before{
+    content: '';
+    width: 50%;
+    height: 1px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.or-line::after{
+    content: '';
+    width: 50%;
+    height: 1px;
+    background-color: gray;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.form >input{
+    width: 100%;
+    margin-top: 15px;
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid #e5e5e5;
+    padding-left: 15px;
+    transition: 0.2s;
+}
+.signup-right >input:focus,.inp-names input:focus{
+    border: 2px solid black;
+    outline: none;
+    transition: 0.2s;
+}
+.inp-names input{
+    margin-top: 15px;
+    width: 50%;
+    border: 1px solid #e5e5e5;
+    height: 48px;
+    padding-left: 15px;
+    transition: 0.2s;
+}
+.inp-names input:first-child{
+    border-top-left-radius:10px ;
+    border-bottom-left-radius:10px ;
+}
+.inp-names input:last-child{
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:10px ;
+}
+.signup-btn{
+    background: none;
+    width: 100%;
+    background-color: #333333;
+    box-shadow: 0px 4px 0 0 black;
+    height: 52px;
+    color: white;
+    border-radius: 60px;
+    border: 0px;
+    font-weight: 22px;
+    margin-top: 15px;
+}
+.agree-font{
+    text-align: center;
+    color: #666666;
+    margin-top: 15px;
+}
+.signin{
+    text-align: center;
+    margin-top: 30px;
+}
+.social-btns button svg{
+    height: 20px;
+}
+form >input{
+    width: 100%;
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid #e5e5e5;
+    padding-left: 15px;
+    transition: 0.2s;
+    margin-top: 15px;
+}
+form input::placeholder{
+    font-size: 18px;
+}
